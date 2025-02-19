@@ -1,0 +1,343 @@
+* {
+  /* Definerar färgerna jag ska ha */
+  --green0: #17ff00;
+  --green1: #45ff33;
+  --green2: #11b600;
+  --green3: green;
+  --green4: chartreuse;
+  --std_corner_rad: 25px;
+  --std_padding: 20px;
+}
+
+
+body {
+  margin: 0;
+  line-height: normal;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header {
+  background: linear-gradient(90deg, var(--green0), var(--green1) 50.1%, var(--green2));
+  width: 100%;
+  height: 100px;
+  position: relative;
+  text-align: center;
+  display: block;
+}
+
+footer {
+  background-color: grey;
+  position: absolute;
+  width: 100%;
+  height: 250px;
+  bottom: -150px;
+  padding: 10px;  
+}
+
+
+.cvtext{
+  /* position: absolute; */
+  top: 0px;
+  left: 0px;
+  position: relative;
+  /* display: inline-block; */
+}
+.text1{
+  position: relative;
+  font-size: 50px;
+  font-family: 'Jockey One';
+  color: #000;
+  text-align: left;
+  display: inline-block;
+
+}
+
+/* .Textbox_container {
+
+} */
+
+.Textbox1 {
+  position: relative;
+  /* background-color: rgb(30, 216, 43); */
+  background-color: var(--green0);
+  width: 450px;
+  height: 150px;
+  left: 150px;
+  bottom: -100px;
+  border-radius: var(--std_corner_rad);
+  padding: 25px;
+  font-size: 18pt;
+
+  text-align: left;
+}
+
+.imgs {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+  background-color: gray;
+  display: inline-block;
+  left: 1000px;
+}
+
+.Textbox2 {
+  position: relative;
+  background-color: var(--green4);
+  width: 250px;
+  height: 300px;
+  border-radius: 25px;
+  padding: 25px;
+  left: 150px;
+  bottom: 150px;
+  font-size: 17pt;
+  text-align: left;
+}
+
+.textbox3 {
+  position: relative;
+  background-color: green;
+  width: 400px;
+  height: 150px;
+  left: 700px;
+  bottom: 300px;
+  padding: 15px;
+  text-align: center;
+  font-size: 8pt;
+  border-radius: var(--std_corner_rad);
+  color: white;
+}
+.textbox3 p{
+  font-size: 20px;
+}
+
+.form1 {
+  position: relative;
+  padding: 10px;
+  border: 5px black solid
+}
+
+.textbox_a1 {
+  /* position: relative; */
+  /* background-color: rgb(30, 216, 43); */
+  background-color: var(--green0);
+  width: 45px;
+  height: 125px;
+  /* left: 150px; */
+  /* bottom: -100px; */
+  border-radius: var(--std_corner_rad);
+  padding: 25px;
+  font-size: 18pt;
+  text-align: left;
+  margin-bottom: 10px;
+  margin-top: 15px;
+}
+
+.textbox_a1 {
+  /* position: relative; */
+  /* background-color: rgb(30, 216, 43); */
+  background-color: green;
+  width: 450px;
+  height: 100px;
+  /* left: 125px; */
+  /* bottom: -100px; */
+  border-radius: var(--std_corner_rad);
+  padding: 25px;
+  font-size: 19pt;
+  border: 2px solid black;
+  margin-bottom: 10px;
+  /* text-align: left; */
+}
+
+.textbox_a2 {
+  /* position: relative; */
+  /* background-color: rgb(30, 216, 43); */
+  background-color: green;
+  width: 450px;
+  height: 100px;
+  /* left: 125px; */
+  /* bottom: -150px; */
+  border-radius: var(--std_corner_rad);
+  border: 2px solid black;
+  padding: 25px;
+  font-size: 19pt;
+  /* text-align: left; */
+  margin-bottom: 10px;
+}
+
+.textbox_a3 {
+  /* position: relative; */
+  /* background-color: rgb(30, 216, 43); */
+  background-color: green;
+  border: 2px solid black;
+  width: 450px;
+  height: 100px;
+  
+  /* left: 125px; */
+  /* bottom: -200px; */
+  border-radius: var(--std_corner_rad);
+  padding: 25px;
+  font-size: 19pt;
+  margin-bottom: 10px;
+  /* text-align: left; */
+}
+
+.textbox_a4 {
+  position: relative;
+  /* background-color: rgb(30, 216, 43); */
+  background-color: green;
+  width: 450px;
+  height: 100px;
+  /* left: 125px; */
+  /* bottom: -250px; */
+  border-radius: var(--std_corner_rad);
+  padding: 25px;
+  font-size: 19pt;
+  /* text-align: left; */
+}
+
+.img2 {
+  /* position: relative; */
+  /* height: 17%;
+  width: 16%; */
+  width: 300px;
+  height: 300px;
+  /* left: 900px; */
+  /* bottom: 200px; */
+  padding: 20px;
+  background: gray;
+  border-radius: 25px;
+  
+}
+
+.textbox_a5 {
+  /* position: relative; */
+  /* background-color: rgb(30, 216, 43); */
+  background-color: rgb(155, 155, 155);
+  width: 450px;
+  height: 300px;
+  padding: 10px;
+  
+  /* left: 900px; */
+  /* bottom: 950px; */
+  border-radius: var(--std_corner_rad);
+  /* padding: 25px; */
+  font-size: 19pt;
+  /* text-align: left; */
+}
+
+.imge {
+  padding: 10px;
+  background-color: gray;
+  height: 40%;
+  width: 40%;
+  border-radius: 25px;
+  
+}
+
+.imge_cont { 
+  /* position: relative; */
+  display: inline-block;
+  /* position:absolute; */
+  left: 100px;
+  bottom: 850px;
+}
+
+
+.textbox_b1 { 
+  position: relative;
+  /* background-color: rgb(30, 216, 43); */
+  background-color: rgb(147, 147, 147);
+  width: 450px;
+  height: 300px;
+  left: 800px;
+  bottom: 230px;
+  border-radius: var(--std_corner_rad);
+  padding: 25px;
+  font-size: 19pt;
+  text-align: left;
+}
+
+.textbox_b2 { 
+  position: relative;
+  /* background-color: rgb(30, 216, 43); */
+  background-color: rgb(147, 147, 147);
+  width: 450px;
+  height: 330px;
+  left: 800px;
+  bottom: 150px;
+  border-radius: var(--std_corner_rad);
+  padding: 25px;
+  font-size: 19pt;
+  text-align: left;
+}
+
+.textbox_b3 { 
+  position: relative;
+  /* background-color: rgb(30, 216, 43); */
+  background-color: rgb(147, 147, 147);
+  width: 450px;
+  height: 350px;
+  left: 100px;
+  bottom: 550px;
+  border-radius: var(--std_corner_rad);
+  padding: 25px;
+  font-size: 19pt;
+  text-align: left;
+}
+
+.textbox_c1 {
+  position: relative;
+  /* background-color: rgb(30, 216, 43); */
+  background-color: green;
+  width: 450px;
+  height: 100px;
+  left: 125px;
+  bottom: -150px;
+  border-radius: var(--std_corner_rad);
+  padding: 25px;
+  font-size: 17pt;
+  text-align: left;
+}
+
+.FISH{
+  padding: 10px;
+  background-color: gray;
+  height: 25%;
+  width: 25%;
+  border-radius: 25px;
+}
+
+.fish{
+  position: relative;
+  left: 800px;
+}
+
+.fishtext {
+  position: relative;
+  /* background-color: rgb(30, 216, 43); */
+  background-color: rgb(34, 187, 34);
+  width: 800px;
+  height: 100px;
+  left: 125px;
+  bottom: -50px;
+  border-radius: var(--std_corner_rad);
+  padding: 25px;
+  font-size: 17pt;
+  text-align: left;
+}
+
+.fritid_container{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 500px;
+  align-items: center;
+
+}
+
+/* .div1
+{
+  height: 500px;
+  width: 100px;
+} */
