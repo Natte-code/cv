@@ -30,7 +30,6 @@ footer {
   position: absolute;
   width: 100%;
   height: 250px;
-  bottom: -150px;
   padding: 10px;  
 }
 
@@ -52,55 +51,51 @@ footer {
 
 }
 
-/* .Textbox_container {
+.Textbox_container1{
+margin-top: 15px;
+display: flex;
+justify-content: space-evenly;
+}
 
-} */
+.textboxt_container2{
+  padding-top: 15px;
+  padding-bottom: 15px;
+  display: flex;
+  /* justify-content: space-evenly; */
+}
+
 
 .Textbox1 {
-  position: relative;
-  /* background-color: rgb(30, 216, 43); */
   background-color: var(--green0);
   width: 450px;
   height: 150px;
-  left: 150px;
-  bottom: -100px;
   border-radius: var(--std_corner_rad);
   padding: 25px;
   font-size: 18pt;
-
   text-align: left;
 }
 
 .imgs {
-  position: relative;
-  display: flex;
-  justify-content: center;
   padding: 15px;
   background-color: gray;
-  display: inline-block;
-  left: 1000px;
+
 }
 
 .Textbox2 {
-  position: relative;
+
   background-color: var(--green4);
   width: 250px;
-  height: 300px;
   border-radius: 25px;
   padding: 25px;
-  left: 150px;
   bottom: 150px;
   font-size: 17pt;
   text-align: left;
 }
 
 .textbox3 {
-  position: relative;
   background-color: green;
   width: 400px;
   height: 150px;
-  left: 700px;
-  bottom: 300px;
   padding: 15px;
   text-align: center;
   font-size: 8pt;
@@ -112,19 +107,27 @@ footer {
 }
 
 .form1 {
-  position: relative;
   padding: 10px;
   border: 5px black solid
 }
 
+
+.skibid_textbox_container{
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  
+}
+
+
+
 .textbox_a1 {
-  /* position: relative; */
-  /* background-color: rgb(30, 216, 43); */
+
   background-color: var(--green0);
   width: 45px;
   height: 125px;
-  /* left: 150px; */
-  /* bottom: -100px; */
+
   border-radius: var(--std_corner_rad);
   padding: 25px;
   font-size: 18pt;
@@ -134,52 +137,37 @@ footer {
 }
 
 .textbox_a1 {
-  /* position: relative; */
-  /* background-color: rgb(30, 216, 43); */
+
   background-color: green;
   width: 450px;
   height: 100px;
-  /* left: 125px; */
-  /* bottom: -100px; */
   border-radius: var(--std_corner_rad);
   padding: 25px;
   font-size: 19pt;
   border: 2px solid black;
   margin-bottom: 10px;
-  /* text-align: left; */
 }
 
 .textbox_a2 {
-  /* position: relative; */
-  /* background-color: rgb(30, 216, 43); */
   background-color: green;
   width: 450px;
   height: 100px;
-  /* left: 125px; */
-  /* bottom: -150px; */
   border-radius: var(--std_corner_rad);
   border: 2px solid black;
   padding: 25px;
   font-size: 19pt;
-  /* text-align: left; */
   margin-bottom: 10px;
 }
 
 .textbox_a3 {
-  /* position: relative; */
-  /* background-color: rgb(30, 216, 43); */
   background-color: green;
   border: 2px solid black;
   width: 450px;
   height: 100px;
-  
-  /* left: 125px; */
-  /* bottom: -200px; */
   border-radius: var(--std_corner_rad);
   padding: 25px;
   font-size: 19pt;
   margin-bottom: 10px;
-  /* text-align: left; */
 }
 
 .textbox_a4 {
@@ -287,40 +275,32 @@ footer {
 }
 
 .textbox_c1 {
-  position: relative;
+  text-align: center;
   /* background-color: rgb(30, 216, 43); */
   background-color: green;
   width: 450px;
-  height: 100px;
-  left: 125px;
-  bottom: -150px;
+  height: 150px;
   border-radius: var(--std_corner_rad);
   padding: 25px;
   font-size: 17pt;
-  text-align: left;
+
 }
 
 .FISH{
   padding: 10px;
   background-color: gray;
-  height: 25%;
   width: 25%;
   border-radius: 25px;
 }
 
 .fish{
-  position: relative;
-  left: 800px;
+  width: fit-content;
 }
 
 .fishtext {
-  position: relative;
-  /* background-color: rgb(30, 216, 43); */
   background-color: rgb(34, 187, 34);
   width: 800px;
   height: 100px;
-  left: 125px;
-  bottom: -50px;
   border-radius: var(--std_corner_rad);
   padding: 25px;
   font-size: 17pt;
@@ -336,8 +316,40 @@ footer {
 
 }
 
-/* .div1
+/* ÄNDRA MIN til MAX NÄR KLAR */
+@media only screen and (min-width:600px) 
 {
-  height: 500px;
-  width: 100px;
-} */
+  .Textbox_container1{
+    flex-direction: row;
+    /* border: #000 2px solid; */
+  }
+
+
+  .imgs{
+    width: 50%;
+
+  }
+  .imgs img{
+    width: 100%
+  }
+
+  .Textbox1{
+    width: 50%;
+    height: 100%;
+  }
+
+  .textboxt_container2{
+    flex-direction: row;
+    border: #f70f0f 2px solid;
+    height: 100%;
+
+  }
+  .textbox3{
+    width: 50%;
+    margin: 0;
+    padding: 0;
+    height: auto;
+  }
+
+
+}
