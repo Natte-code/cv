@@ -61,7 +61,7 @@ justify-content: space-evenly;
   padding-top: 15px;
   padding-bottom: 15px;
   display: flex;
-  /* justify-content: space-evenly; */
+  justify-content: space-evenly;
 }
 
 
@@ -112,13 +112,6 @@ justify-content: space-evenly;
 }
 
 
-.skibid_textbox_container{
-  margin-top: 15px;
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-  
-}
 
 
 
@@ -274,9 +267,30 @@ justify-content: space-evenly;
   text-align: left;
 }
 
+
+
+.skibid_textbox_container {
+  display: flex;
+  justify-content: center; /* Centrerar horisontellt */
+  align-items: center; /* Centrerar vertikalt */
+  margin: 15px auto; /* Centrera div på sidan */
+  flex-direction: row;
+  border: #000 2px solid;
+  width: fit-content; /* Anpassa storlek efter innehåll */
+  width: 100%; /* Gör att containern tar hela bredden */
+  max-width: 80%;
+  
+
+}
+
+
+
+
+
 .textbox_c1 {
+  align-self: center;
+  justify-content: center;
   text-align: center;
-  /* background-color: rgb(30, 216, 43); */
   background-color: green;
   width: 450px;
   height: 150px;
@@ -317,7 +331,7 @@ justify-content: space-evenly;
 }
 
 /* ÄNDRA MIN til MAX NÄR KLAR */
-@media only screen and (min-width:600px) 
+@media only screen and (max-width:600px) 
 {
   .Textbox_container1{
     flex-direction: row;
