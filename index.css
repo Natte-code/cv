@@ -297,10 +297,10 @@ justify-content: space-evenly;
   align-items: center; /* Centrerar vertikalt */
   margin: 15px auto; /* Centrera div på sidan */
   flex-direction: row;
-  border: #000 2px solid;
+  /* border: #000 2px solid; */
   width: fit-content; /* Anpassa storlek efter innehåll */
   width: 100%; /* Gör att containern tar hela bredden */
-  max-width: 80%;
+  max-width: 100%;
   
 
 }
@@ -314,7 +314,7 @@ justify-content: space-evenly;
   justify-content: center;
   text-align: center;
   background-color: green;
-  width: 450px;
+  width: 100%;
   height: 150px;
   border-radius: var(--std_corner_rad);
   padding: 25px;
@@ -325,7 +325,7 @@ justify-content: space-evenly;
 .FISH{
   padding: 10px;
   background-color: gray;
-  width: 25%;
+  width: 90%;
   border-radius: 25px;
 }
 
@@ -376,7 +376,7 @@ justify-content: space-evenly;
 
   .textboxt_container2{
     flex-direction: row;
-    border: #f70f0f 2px solid;
+    /* border: #f70f0f 2px solid; */
     height: 100%;
 
   }
@@ -450,4 +450,22 @@ justify-content: space-evenly;
     display: flex;
     flex-direction: row;
   }
+
+
+  /* Fritid */
+
+
+  .skibidi1_huvuddel{
+    width: auto;
+  }
+  .textbox_c1{
+    text-align:center;
+    font-size: 100%;
+  }
+
+  .fishtext{
+    width: 90%;
+  }
+
+
 }
